@@ -1,6 +1,5 @@
-function Footer()
-{
-    return(
+function Footer() {
+    return (
 
         <>
             <div className="site-footer"></div>

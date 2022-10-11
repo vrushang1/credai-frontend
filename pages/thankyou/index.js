@@ -1,11 +1,9 @@
-import ThankYouPage from "../../components/thankyoupage";
+import ThankYouPage from '../../components/thankyoupage';
 
-
-export default function ThankYou()
-{
-    return (
-        <>
-           <ThankYouPage/>
-        </>
-    );
+export default function ThankYou() {
+  return (
+    <>
+      <ThankYouPage />
+    </>
+  );
 }

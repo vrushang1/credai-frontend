@@ -1,11 +1,9 @@
-import HealthForm from "../../components/healthform";
+import HealthForm from '../../components/healthform';
 
-
-export default function HealthCheckup()
-{
-    return (
-        <>
-           <HealthForm/>
-        </>
-    );
+export default function HealthCheckup() {
+  return (
+    <>
+      <HealthForm />
+    </>
+  );
 }

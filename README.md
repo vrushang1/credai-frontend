@@ -25,7 +25,7 @@ $ npm install
 
 ```bash
 # development (port: 4000)
-$ npm run start
+$ npm run dev
 
 # production mode (port: 4000)
 $ npm run build

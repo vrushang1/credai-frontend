@@ -43,29 +43,11 @@ function HealthForm() {
     console.log('Files Updated:', files);
   }, [files]);
 
-  const handleDrop = (file, error) => {
-    setFiles((existing) => existing.concat(Array.from(file)));
-    console.log(files, 'filees');
-  };
 
   const handleDeletePdf = (id) => {
     const values = [...files];
     values.splice(id, 1);
     setFiles(values);
-  };
-
-  const handleSelect = (checkedName) => {
-    const newNames = checkedValues?.includes(checkedName)
-      ? checkedValues?.filter((name) => name !== checkedName)
-      : [...(checkedValues ?? []), checkedName];
-    setCheckedValues(newNames);
-    return newNames;
-  };
-
-  const handleSubmit = () => {
-    if (checkedValues.length < 3) {
-      setCheckboxError(true);
-    }
   };
   const handleClickOpen = () => {
     setOpen(true);
@@ -88,10 +70,7 @@ function HealthForm() {
     });
     console.log(data);
   };
-  const handleFileChange = (e) => {
-    const file = e.target.files;
-    setFiles(file);
-  };
+
   return (
     <>
       <Header />

@@ -34,5 +34,5 @@ $ npm run start
 
 ## App Running
 
-![Alt text](images/img1.png?raw=true 'Main Form Screen')
-![Alt text](images/img2.png?raw=true 'Thank You Screen')
+![Alt text](images/Main.png?raw=true 'Main Form Screen')
+![Alt text](images/Thankyou.png?raw=true 'Thank You Screen')

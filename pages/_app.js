@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/thankyou.css';
 import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
 import { createUploadLink } from "apollo-upload-client";
 

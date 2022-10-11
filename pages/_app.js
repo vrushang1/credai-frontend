@@ -1,8 +1,12 @@
 import '../styles/globals.css'
 import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+import { createUploadLink } from "apollo-upload-client";
+
+const uploadLink = createUploadLink({ 
+  uri: "http://localhost:3000/graphql" });
 
 export const client = new ApolloClient({
-  uri: 'http://localhost:3000/graphql',
+  link: uploadLink,
   cache: new InMemoryCache(),
 });
 

@@ -17,7 +17,7 @@ const getAllHealthForms = gql`
 `;
 
 
-const addHealthFOrm = gql`
+const addHealthForm = gql`
 
   mutation($file: [Upload!]!, $businessUEN: String!, $businessName: String!, $name: String!, $email: String!,$phone: String!)
   {
@@ -34,4 +34,4 @@ const addHealthFOrm = gql`
   }
 `;
 
-export { getAllHealthForms };
+export { getAllHealthForms, addHealthForm };

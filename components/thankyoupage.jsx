@@ -4,7 +4,6 @@ import Header from "./header";
 function ThankYouPage()
 {
     return(
-
         <>
         <Header />
             <h1>Thank you Components</h1>

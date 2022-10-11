@@ -31,3 +31,8 @@ $ npm run dev
 $ npm run build
 $ npm run start
 ```
+
+## App Running
+
+![Alt text](images/Main.png?raw=true 'Main Form Screen')
+![Alt text](images/Thankyou.png?raw=true 'Thank You Screen')

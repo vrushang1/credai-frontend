@@ -1,8 +1,8 @@
-function FileList({totalFiles }) {
+function FileList({totalFiles, deleteFile }) {
 
-    const files = totalFiles.map(file => (
+    const files = totalFiles.map((file, index) => (
         <li key={file.path}>
-        {file.path}
+            {file.path} <span onClick={() => deleteFile(index)}>X</span>
         </li>
     ));
     return (
